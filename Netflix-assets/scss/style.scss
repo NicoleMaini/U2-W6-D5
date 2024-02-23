@@ -5,6 +5,12 @@
 .w-10 {
   width: 7rem;
 }
+.w-10 {
+  width: 10rem;
+  @media screen and (max-width: 998px) {
+    margin-bottom: 2rem;
+  }
+}
 
 .cp {
   cursor: pointer;
@@ -32,6 +38,13 @@ footer p {
   &:hover,
   &:active {
     background-color: #333333;
+  }
+}
+
+.w-60 {
+  @media screen and (max-width: 998px) {
+    width: 12rem;
+    margin-inline: auto;
   }
 }
 

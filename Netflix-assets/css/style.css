@@ -11843,6 +11843,15 @@ textarea.form-control-lg {
   width: 7rem;
 }
 
+.w-10 {
+  width: 10rem;
+}
+@media screen and (max-width: 998px) {
+  .w-10 {
+    margin-bottom: 2rem;
+  }
+}
+
 .cp {
   cursor: pointer;
 }
@@ -11866,6 +11875,13 @@ footer p {
 }
 .bg-grey-btn:visited, .bg-grey-btn:hover, .bg-grey-btn:active {
   background-color: #333333;
+}
+
+@media screen and (max-width: 998px) {
+  .w-60 {
+    width: 12rem;
+    margin-inline: auto;
+  }
 }
 
 /* Personalizzo il label e quindi il contenitore dell'input */
