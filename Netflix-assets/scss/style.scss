@@ -47,6 +47,15 @@ footer p {
     margin-inline: auto;
   }
 }
+.img-cont-avatar-profile {
+  @media screen and (max-width: 998px) {
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    margin-inline: auto;
+    margin-bottom: 3rem;
+  }
+}
 
 /* Personalizzo il label e quindi il contenitore dell'input */
 .checkbox-wrapper {
@@ -118,7 +127,7 @@ footer p {
 .w-30 {
   width: 29%;
 }
-.w-60 {
+.w-61 {
   width: 70%;
 }
 
