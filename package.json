@@ -1,0 +1,14 @@
+{
+  "name": "u2-w6-d5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass Netflix-assets/scss/style.scss Netflix-assets/css/style.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}
