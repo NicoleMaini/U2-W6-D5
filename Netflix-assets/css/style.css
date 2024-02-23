@@ -11852,6 +11852,18 @@ textarea.form-control-lg {
   }
 }
 
+@media screen and (min-width: 998px) {
+  .division {
+    width: 25%;
+  }
+}
+
+@media screen and (min-width: 998px) {
+  .division2 {
+    width: 75%;
+  }
+}
+
 .cp {
   cursor: pointer;
 }

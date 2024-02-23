@@ -11,7 +11,16 @@
     margin-bottom: 2rem;
   }
 }
-
+.division {
+  @media screen and (min-width: 998px) {
+    width: 25%;
+  }
+}
+.division2 {
+  @media screen and (min-width: 998px) {
+    width: 75%;
+  }
+}
 .cp {
   cursor: pointer;
 }
