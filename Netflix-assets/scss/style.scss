@@ -25,6 +25,17 @@
   cursor: pointer;
 }
 
+.img-hover {
+  img {
+    cursor: pointer;
+    &:hover {
+      scale: 1.2;
+      transition: 0.3s;
+      box-shadow: 1px 1px 15px 5px black;
+    }
+  }
+}
+
 footer p {
   margin-bottom: 0;
 }
@@ -131,13 +142,27 @@ footer p {
   display: block;
 }
 
+.btn-profile {
+  button:hover {
+    background-color: #f3f3f3;
+    color: #333333;
+  }
+}
+
 // account
 
 .w-30 {
-  width: 29%;
+  width: 100%;
+  text-align: center;
+  @media screen and (min-width: 998px) {
+    width: 29%;
+  }
 }
 .w-61 {
-  width: 70%;
+  width: 100%;
+  @media screen and (min-width: 998px) {
+    width: 70%;
+  }
 }
 
 .bg-grey-account-page {
